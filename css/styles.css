@@ -1,0 +1,172 @@
+/* Fuente para íconos: FontAwesome */
+@font-face{
+    font-family: "FontAwesome";
+    src: url("../resources/fonts/fontawesome.ttf");
+}
+
+/* Fuente para texto: Scada-Regular */
+@font-face{
+    font-family: "Scada";
+    src: url("../resources/fonts/Scada-Regular.ttf");
+}
+
+/* Iconos de header y herramientas: */
+.fa-bars,
+.fa-close,
+.fa-user,
+.fa-lock,
+.fa-plus-circle,
+.fa-edit,
+.herramientas > .box-info > .fa-info-circle,
+.fa-trash,
+.fa-th,
+.fa-sort-alpha-asc,
+.fa-clock-o,
+.fa-search{
+    font-family: "FontAwesome";
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+body{
+    font-size: 25px;
+    font-family: 'Scada', sans-serif;
+
+    position: relative;
+}
+
+
+
+/*** HEADER ***/
+
+header{
+    width: 100%;
+    height: 60px;
+    background: #002840;
+
+    /* Mantenemos header visible: */
+    position: fixed;
+    z-index: 999;
+
+}
+
+header h1{
+    display: inline-block;
+
+    width: 30%;
+    min-width: 200px; /* Anchura mínima */
+    height: 60px;
+
+    font-size: 25px;
+
+    margin: 0;
+
+    line-height: 57px; /* Centra verticalmente */
+
+    position: relative;
+    left: 6%;
+}
+
+/* Da estilo a los enlaces del h1: */
+header h1 > * {
+    display: inline-block;
+
+    text-decoration: none;
+
+    color: #FFF;
+
+    vertical-align: middle;
+
+    margin: 0px 0px;
+}
+
+header h1 figure{
+    width: 40px;
+    height: 40px;
+
+    margin: 0;
+}
+
+header h1 figure img{
+    width: 100%;
+}
+
+/* Icono hamburguesa y cerrar: */
+.inOutMovil{
+    width: 25px;
+    height: 25px;
+
+    text-align: center;
+
+    color: #FFF;
+
+    cursor: pointer;
+
+    position: relative;
+    left: 89%;
+
+}
+
+/* Menu hamburguesa: */
+#verMenu{
+    position: relative;
+    top: -45px;
+}
+
+/* Menu desplegable: */
+#cardMenu{
+    display: none;
+
+    width: 100%;
+    height: 300px;
+
+    background: #002840;
+
+    border-top: 15px solid #002840;
+
+    position: relative;
+    top: -85px;
+
+    transition-duration: 0.3s;
+}
+
+/* Línea divide menu del header: */
+header nav ul{
+    height: 253px;
+
+    border-top: 2px solid #E8940C;
+
+    position: relative;
+    top: -5px;
+}
+
+header nav ul li{
+    text-align: center;
+
+    list-style: none;
+
+    line-height: 60px;
+
+    margin-left: -40px;
+    padding: 1.6px;
+
+    transition-duration: 0.3s;
+}
+
+header nav ul li a{
+    text-decoration: none;
+
+    color: #FFF;
+
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+/* Fondo de menu opaco: */
+header nav ul li:hover{
+    background: hsla(203, 100%, 100%, 0.2);
+}
