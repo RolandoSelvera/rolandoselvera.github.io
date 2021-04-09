@@ -6,8 +6,12 @@ nav{
 	overflow: hidden;
 }
 
-.brand-logo{
+.brand-logo, .img-logo {
 	margin-left: 16px;
+}
+
+.img-logo {
+	vertical-align: middle;
 }
 
 .main{
