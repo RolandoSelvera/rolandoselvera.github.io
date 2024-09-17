@@ -6,8 +6,12 @@ nav{
 	overflow: hidden;
 }
 
-.brand-logo{
+.brand-logo, .img-logo {
 	margin-left: 16px;
+}
+
+.img-logo {
+	vertical-align: middle;
 }
 
 .main{
@@ -18,8 +22,10 @@ nav{
 }
 
 .card-panel{
-	font-style: italic;
+	width: 101vw;
+	margin-left: -28px;
+	font-style: normal;
 	overflow: hidden;
-	margin-left: -10px;
 	margin-top: 25px;
+	padding-bottom: 50px;
 }
