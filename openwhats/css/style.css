@@ -1,0 +1,25 @@
+nav{
+	overflow: hidden;
+}
+
+.nav-wrapper{
+	overflow: hidden;
+}
+
+.brand-logo{
+	margin-left: 16px;
+}
+
+.main{
+	overflow: hidden;
+	width: 100%;
+	margin: 0;
+	padding: 16px;
+}
+
+.card-panel{
+	font-style: italic;
+	overflow: hidden;
+	margin-left: -10px;
+	margin-top: 25px;
+}
